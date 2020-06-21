@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<script defer src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Chat-Box</title>
+</head>
+    <body>
+		<p>Please start each sentence with an Uppercase letter</p>
+        <p id="box">Let's begin...<br></p>
+        <input id="userWord" type="text" onkeydown="if (event.keyCode == 13) {speak()}">
+    </body>
+</html>

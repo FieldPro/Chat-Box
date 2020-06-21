@@ -1,0 +1,28 @@
+body {
+	background-color: pink;
+	font-size: 20px;
+}
+
+#box {
+	color: red;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 60px 60px 60px 25px;
+	grid-gap: 20px;
+}
+ 
+@media all and (min-width: 700px) {
+	body {
+		background-color: grey;
+		font-size: 20px;
+}
+p {
+	color: red;
+}
+#box {
+	color: black;
+}
+}
